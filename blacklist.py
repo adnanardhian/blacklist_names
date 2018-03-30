@@ -1,5 +1,5 @@
 def initialize(blacklist):
-    file_object = open("D:/# Adnan/Reimbursement/New folder/"+blacklist, "r")
+    file_object = open("PATH_TO_FILE"+blacklist, "r")
     input_file = file_object.read()
     input_file = input_file.split('\n')
     input_file = input_file[1:len(input_file)-2]
